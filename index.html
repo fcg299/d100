@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Roboto'>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<style>
+html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
+  
+h2{
+  text-align:center;
+}
+  
+*:focus {
+    outline: none;
+    }
+    
+.modal-content {
+    background:rgba(0,0,0,0.4);
+    margin: 30 auto 0 auto;
+    border: 1px solid #888;
+    width: 100%; 
+    height: 55%;
+    }
+
+.animate1 {
+    -webkit-animation: animatezoom 0.6s;
+    animation: animatezoom 0.6s
+    }
+  
+.animate2 {
+   -webkit-animation: animatezoom 0.8s;
+   animation: animatezoom 0.8s
+   }
+      
+.animate3 {
+   -webkit-animation: animatezoom 1s;
+   animation: animatezoom 1s
+   }
+
+.animate4 {
+   -webkit-animation: animatezoom 1.2s;
+   animation: animatezoom 1.2s
+   }
+      
+@-webkit-keyframes animatezoom {
+    from {-webkit-transform: scale(0)} 
+    to {-webkit-transform: scale(1)}
+        
+</style>
+<body style="background-size: cover;" background="#AAAAAA" class="w3-light-grey">
+
+<!-- Page Container -->
+  <div class="w3-content w3-margin-top" style="max-width:1300px;"
+
+  <!-- The Grid -->
+  <div style="max-width:1400px; opacity:0.9" class="w3-row-padding">
+  
+    <!-- Left Column -->
+    <div class="w3-twothird animate1">
+    
+      <div class="w3-white w3-text-grey w3-card-4">
+        <div class="w3-display-container">
+          <div class="w3-display-bottomleft w3-container w3-text-black">
+          </div>
+        </div>
+        <div class="w3-container">
+          <h2 class="w3-text-grey w3-padding-16">Panel de control</h2>
+
+          <p class="w3-large"><b><i class="fa fa-asterisk fa-fw w3-margin-right w3-text-teal"></i>Título del grupo 1 de celdas</b></p>
+          <div class="modal-content  animate1">
+            <br><br><br><br><br><br><br><br><br><br>
+          </div>
+          <br>
+          <div class="modal-content  animate2">
+            <br><br><br><br><br><br><br><br><br><br>
+          </div>
+          
+          <br>
+
+          <p class="w3-large"><b><i class="fa fa-asterisk fa-fw w3-margin-right w3-text-teal"></i>Título del grupo 2 de celdas</b></p>
+          <div class="modal-content animate3">
+            <br><br><br><br><br><br><br><br><br><br>
+          </div>
+          <br>
+          <div class="modal-content animate4">
+            <br><br><br><br><br><br><br><br><br><br>
+          </div>
+          <br>
+        </div>
+      </div><br>
+
+    <!-- End Left Column -->
+    </div>
+
+    <!-- Right Column -->
+    <div class="w3-third">
+    
+      <div class="w3-container w3-card-2 w3-white w3-margin-bottom animate3">
+        <h2 class="w3-text-grey w3-padding-16">Mi cuenta</h2>
+        <div class="w3-container">
+          <h5 class="w3-opacity"><b>Correo electrónico</b></h5>
+          <h6 class="w3-text-teal">correo@ejemplo.com</h6>
+          <hr>
+        </div>
+        <div class="w3-container">
+          <h5 class="w3-opacity"><b>Teléfono de contacto</b></h5>
+          <h6 class="w3-text-teal"><a style="text-decoration:none">987 654 321</a></h6>
+          <hr>
+        </div>
+        <div class="w3-container">
+          <h5 class="w3-opacity"><b>Contraseña</b></h5>
+          <h6 class="w3-text-teal">Cambiar contraseña</h6><br>
+        </div>
+      </div>
+
+      <div class="w3-container w3-card-2 w3-white animate3">
+        <h2 class="w3-text-grey w3-padding-16">Soporte técnico</h2>
+        <div class="w3-container">
+          <h5 class="w3-opacity"><b>Correo electrónico</b></h5>
+          <h6 class="w3-text-teal">Contactar mediante e-mail</h6>
+          <hr>
+        </div>
+        <div class="w3-container">
+          <h5 class="w3-opacity"><b>Teléfono de contacto</b></h5>
+          <h6 class="w3-text-teal"><a style="text-decoration:none">Contactar por teléfono</a></h6><br>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</body>
+</html>
