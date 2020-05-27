@@ -3,6 +3,9 @@
 You can use the [editor on GitHub](https://github.com/icb163/d100/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
 -Estoy añadiendo esto para hacer un cambio, para luego un push y ver si 
 jenkins lo pone solo, enhorabuena, has encontrado un Easter egg :D
+-Si sigues leyendo esto, es porque se me habia olvidado conectar lo que 
+hace que el jenkins lo haga automaticamente, gracias Felipe del pasado, 
+de parte del Felipe del presente
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
 ### Markdown
